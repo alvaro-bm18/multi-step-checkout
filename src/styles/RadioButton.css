@@ -1,0 +1,73 @@
+.plan{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: 30%;
+    height: 100%;
+    padding: 8pt;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+}
+
+.plan:hover > .background-plan{
+    border: 1pt solid var(--marineBlue);
+}
+
+.plan input:checked ~ .background-plan{
+    border: 1pt solid var(--marineBlue);
+    background-color: var(--alabaster);
+}
+
+.background-plan{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 1pt solid var(--lightGray);
+    border-radius: 4pt;
+    z-index: -1;
+}
+
+.plan > input[type='radio']{
+    display: none;
+}
+
+.icon{
+    position: absolute;
+    display: block;
+    top: 8pt;
+    left: 8pt;
+    width: 20pt;
+    height: 20pt;
+}
+
+.plan-title,
+.plan-time,
+.plan-yr{
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 8pt;
+}
+
+.plan-title{
+    margin-bottom: 4pt;
+    font-family: 'Ubuntu Bold';
+    color: var(--marineBlue);
+}
+
+.plan-time{
+    font-family: 'Ubuntu Regular';
+    color: var(--coolGray);
+}
+
+.plan-yr{
+    font-size: 7pt;
+    margin-top: 4pt;
+    font-family: 'Ubuntu Regular';
+    color: var(--marineBlue);
+}

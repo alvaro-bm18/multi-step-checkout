@@ -1,0 +1,22 @@
+.header-section{
+    height: 45pt;
+}
+
+.header-section > span,
+.header-section > strong{
+    position: relative;
+    display: block;
+}
+
+.header-section > strong{
+    font-family: 'Ubuntu Bold';
+    font-size: 16pt;
+    color: var(--marineBlue);
+}
+
+.header-section > span{
+    font-family: 'Ubuntu Regular';
+    font-size: 8pt;
+    margin: 6pt 0;
+    color: var(--coolGray);
+}

@@ -1,0 +1,196 @@
+.form-container{
+    width: calc(100% - 140pt);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.form-container > form{
+    position: relative;
+    display: block;
+    width: 75%;
+    height: 100%;
+}
+
+.step-container{
+    width: 100%;
+    height: 100%;
+    padding: 20pt 0 10pt 0;
+}
+
+.plan-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 110pt;
+    padding: 10pt 0;
+}
+
+.time-switch{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 28pt;
+    margin-top: 8pt;
+    border-radius: 4pt;
+    background-color: var(--magnolia);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.toggleButton{
+    position: relative;
+    display: block;
+    width: 18pt;
+    height: 10pt;
+    padding: 2pt;
+    margin: 0 10pt;
+    border-radius: 5pt;
+    background-color: var(--marineBlue);
+}
+
+.ball{
+    position: absolute;
+    display: block;
+    top: 2.1pt;
+    width: 6pt;
+    height: 6pt;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.yr{right: 3pt;}
+.mo{left: 3pt;}
+
+.time-switch > strong{
+    font-size: 8pt;
+    font-family: 'Ubuntu Medium';
+    color: var(--coolGray);
+    cursor: pointer;
+    user-select: none;
+}
+
+.time-selected{
+    color: var(--marineBlue)!important;
+}
+
+.step-container > section{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: calc(100% - 69pt) !important;
+}
+
+.step-container > footer{
+    height: 24pt;
+}
+
+
+.tableInformation{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0 10pt;
+    border-radius: 4pt;
+    background-color: var(--magnolia);
+}
+
+.line{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 0.8pt;
+    background-color: var(--lightGray);
+}
+
+.rowInformation{
+    padding: 10pt;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 8pt;
+    font-family: 'Ubuntu Regular';
+}
+
+.rowInformation:first-child > div:first-child > strong,
+.rowInformation:first-child > div:first-child > span{
+    position: relative;
+    display: block;
+    margin: 2pt 0;
+}
+
+.rowInformation:first-child > div:first-child > strong{
+    color: var(--marineBlue);
+}
+
+.rowInformation:first-child > div:first-child > strong,
+.rowInformation:first-child > div:last-child{
+    font-family: 'Ubuntu Bold'!important;
+    font-size: 9pt;
+}
+
+.rowInformation:first-child > div:first-child > span{
+    color: var(--coolGray);
+    text-decoration: underline;
+    cursor: pointer;
+    user-select: none;
+}
+
+.rowInformation > div:nth-child(1){
+    color: var(--coolGray);
+}
+
+.rowInformation > div:nth-child(2){
+    font-family: 'Ubuntu Medium'!important;
+    color: var(--marineBlue);
+}
+
+.totalInformation{
+    margin-top: 10pt;
+    padding: 5pt 20pt;
+}
+
+.totalInformation > div:last-child{
+    color: var(--purplishBlue);
+    font-size: 11pt;
+    font-family: 'Ubuntu Bold'!important;
+}
+
+.thank-you-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.thank-you-container > div > img,
+.thank-you-container > div > strong,
+.thank-you-container > div > p{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.thank-you-container > div > img{
+    margin: 0 auto 15pt auto;
+}
+
+.thank-you-container > div > strong{
+    font-size: 18pt;
+    font-family: 'Ubuntu Bold';
+    margin: 10pt 0;
+    color: var(--marineBlue);
+}
+
+.thank-you-container > div > p{
+    font-size: 8pt;
+    font-family: 'Ubuntu Medium';
+    color: var(--coolGray);
+}

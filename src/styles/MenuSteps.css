@@ -1,0 +1,58 @@
+.menu-steps{
+    display: block;
+    width: 160pt;
+    height: 100%;
+    padding: 10pt 15pt;
+    border-radius: 6pt;
+    background-image: url('../assets/bg-sidebar-desktop.svg');
+    background-size: cover;
+}
+
+.button-step{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.4em 0;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1pt solid var(--lightBlue);
+    color: var(--lightBlue);
+    font-size: 10pt;
+    font-family: 'Ubuntu Bold';
+}
+
+.selected{
+    background-color: var(--lightBlue);
+    color: var(--marineBlue);
+}
+
+.title-step{
+    width: calc(100% - 30px);
+    padding-left: 10pt;
+}
+
+.title-step > span,
+.title-step > strong{
+    position: relative;
+    display: block;
+}
+
+.title-step > span{
+    font-size: 8pt;
+    font-family: 'Ubuntu Regular';
+    color: var(--lightBlue);
+}
+
+.title-step > strong{
+    font-size: 10pt;
+    color: white;
+    font-family: 'Ubuntu Bold';
+}

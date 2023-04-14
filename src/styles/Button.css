@@ -1,0 +1,32 @@
+.button{
+    height: 24pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8pt;
+    font-family: 'Ubuntu Medium';
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4pt;
+}
+
+.confirm{
+    width: 60pt;
+    background-color: var(--purplishBlue);
+    color: white;
+    float: right;
+}
+
+.go-back{
+    width: 40pt;
+    color: var(--coolGray);
+    background-color: transparent;
+    float: left;
+}
+
+.go-next{
+    width: 60pt;
+    background-color: var(--marineBlue);
+    color: white;
+    float: right;
+}
