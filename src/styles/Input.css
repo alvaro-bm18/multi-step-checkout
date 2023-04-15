@@ -10,7 +10,6 @@
     position: relative;
     display: block;
     font-size: 8pt;
-    font-family: 'Ubuntu Regular';
     color: var(--marineBlue);
     margin-bottom: 4pt;
 }
@@ -29,7 +28,7 @@
     padding: 8pt;
     border-radius: 4pt;
     color: var(--marineBlue);
-    font-family: 'Ubuntu Medium';
+    font-weight: 200;
     font-size: 10pt;
     outline: none;
     border: 1pt solid var(--lightGray);

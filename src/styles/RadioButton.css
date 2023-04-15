@@ -56,18 +56,16 @@
 
 .plan-title{
     margin-bottom: 4pt;
-    font-family: 'Ubuntu Bold';
+    font-weight: bold;
     color: var(--marineBlue);
 }
 
 .plan-time{
-    font-family: 'Ubuntu Regular';
     color: var(--coolGray);
 }
 
 .plan-yr{
     font-size: 7pt;
     margin-top: 4pt;
-    font-family: 'Ubuntu Regular';
     color: var(--marineBlue);
 }

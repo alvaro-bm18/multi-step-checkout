@@ -9,13 +9,12 @@
 }
 
 .header-section > strong{
-    font-family: 'Ubuntu Bold';
+    font-weight: bold;
     font-size: 16pt;
     color: var(--marineBlue);
 }
 
 .header-section > span{
-    font-family: 'Ubuntu Regular';
     font-size: 8pt;
     margin: 6pt 0;
     color: var(--coolGray);

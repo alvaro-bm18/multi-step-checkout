@@ -100,7 +100,7 @@
 }
 
 .infoAddOns > div > strong{
-    font-family: 'Ubuntu Bold';
+    font-weight: bold;
     font-size: 10pt;
     color: var(--marineBlue);
     margin-bottom: 0.3em;
@@ -108,7 +108,6 @@
 
 .infoAddOns > div > span,
 .priceAddOns{
-    font-family: 'Ubuntu Regular';
     font-size: 8pt;
 }
 

@@ -1,9 +1,10 @@
 import React from 'react';
 import '../styles/MenuSteps.css';
+import bg from '../assets/bg-sidebar-desktop.svg';
 
-function MenuSteps({step}){
+function MenuSteps({ step }) {
     return (
-        <div className='menu-steps'>
+        <div className='menu-steps' style={{ "backgroundImage": `url(${bg})` }}>
             <div className='button-step' id='step_no_1'>
                 <div className={`number ${step === 1 ? 'selected' : ''}`.trimEnd()}>1</div>
                 <div className='title-step'>
